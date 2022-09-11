@@ -1,0 +1,37 @@
+type CurrencyDto {
+  id: ID
+  dateTime: String
+  curFrom: String
+  curTo: String
+  exRate: Float
+  sumBeforeConversion: Float
+  sumAfterConversion: Float
+  averageExRate: Float
+}
+
+type HistoryWithMeta {
+  currencyDtos: [CurrencyDto]
+  totalElements: Int
+}
+
+type Query {
+  charCodes: [String]
+
+  convert(
+    curfrom: String,
+    curto: String,
+    amount: String): CurrencyDto
+
+  getHistoryOffsetPaged(
+    offset: Int,
+    limit: Int): HistoryWithMeta
+
+  getHistoryCursorPaged(
+    first: Int,
+    after: String): CurrencyDtoConnection @connection(for: "CurrencyDto")
+
+  getStatistics: [CurrencyDto]
+}
+
+
+
