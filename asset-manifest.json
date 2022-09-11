@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/converter_with_graphql/static/css/main.030b0f83.css",
-    "main.js": "/converter_with_graphql/static/js/main.e13d1c1c.js",
+    "main.js": "/converter_with_graphql/static/js/main.80aba712.js",
     "index.html": "/converter_with_graphql/index.html",
     "main.030b0f83.css.map": "/converter_with_graphql/static/css/main.030b0f83.css.map",
-    "main.e13d1c1c.js.map": "/converter_with_graphql/static/js/main.e13d1c1c.js.map"
+    "main.80aba712.js.map": "/converter_with_graphql/static/js/main.80aba712.js.map"
   },
   "entrypoints": [
     "static/css/main.030b0f83.css",
-    "static/js/main.e13d1c1c.js"
+    "static/js/main.80aba712.js"
   ]
 }
