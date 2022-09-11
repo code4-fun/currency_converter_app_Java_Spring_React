@@ -4,7 +4,7 @@
 
 Backend размещен на **heruku**.
 
-Frontend размещен на **GitHub Pages**.
+Frontend [размещен](https://ignal1.github.io/converter_with_graphql) на **GitHub Pages**.
 
 ## Используемые технологии:
 
