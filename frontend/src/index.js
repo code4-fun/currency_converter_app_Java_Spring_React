@@ -5,7 +5,7 @@ import './styles/_styles.scss'
 import {ApolloClient, ApolloProvider, InMemoryCache} from '@apollo/client'
 
 const client = new ApolloClient({
-  uri: 'https://converter_with_graphql.herokuapp.com/graphql',
+  uri: 'https://converter-with-graphql.herokuapp.com/graphql',
   cache: new InMemoryCache({
     addTypename: false
   })
