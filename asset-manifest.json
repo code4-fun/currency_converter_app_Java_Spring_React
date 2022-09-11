@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/converter_with_graphql/static/css/main.030b0f83.css",
+    "main.js": "/converter_with_graphql/static/js/main.e13d1c1c.js",
+    "index.html": "/converter_with_graphql/index.html",
+    "main.030b0f83.css.map": "/converter_with_graphql/static/css/main.030b0f83.css.map",
+    "main.e13d1c1c.js.map": "/converter_with_graphql/static/js/main.e13d1c1c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.030b0f83.css",
+    "static/js/main.e13d1c1c.js"
+  ]
+}
